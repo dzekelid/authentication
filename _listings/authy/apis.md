@@ -1,5 +1,4 @@
 ---
----
 name: Authy
 description: Authy is a the simplest way to add two-factor authentication to any Website
   or App. Authy provides a simple API for developers to customize the user experience
@@ -37,6 +36,4 @@ maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
   email: info@apievangelist.com
-...
-
 ---
