@@ -1,5 +1,4 @@
 ---
----
 name: Auth0
 description: Authenticate and authorize apps and APIs with any popular identity provider
   (enterprise, social or custom) running on any popular software stack on any popular
@@ -53,6 +52,4 @@ maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
   email: info@apievangelist.com
-...
-
 ---
