@@ -39,7 +39,7 @@ apis:
   tags: Authentication
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/authentication/master/_listings/slack/auth-revoke-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/authentication/master/_listings/slack/auth-test-get.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
