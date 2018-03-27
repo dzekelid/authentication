@@ -25,9 +25,9 @@ tags:
 - Chat
 - Change Log Example
 - Change Log
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/authentication/master/_listings/slack/apis.yaml
+created: "2018-03-27"
+modified: "2018-03-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/slack/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Slack
@@ -39,7 +39,7 @@ apis:
   tags: Authentication
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/authentication/master/_listings/slack/auth-test-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/slack/auth-revoke-get.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
