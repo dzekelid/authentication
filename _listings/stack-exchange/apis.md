@@ -26,9 +26,14 @@ modified: "2018-05-12"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stack Exchange Invalidate Acces Tokens
-  description: "Immediately expires the access tokens passed. This method is meant
-    to allow an application to discard any active access tokens it no longer needs.\n
+- name: Stack Exchange De-Authenticate Token
+  description: "Passing valid access_tokens to this method causes the application
+    that created them to be de-authorized by the user associated with each access_token.
+    This will remove the application from their apps tab, and cause all other existing
+    access_tokens to be destroyed.\n \nThis method is meant for uninstalling applications,
+    recovering from access_token leaks, or simply as a stronger form of /access-tokens/{accessTokens}/invalidate.\n
+    \nNothing prevents a user from re-authenticate to an application that has de-authenticated
+    itself, the user will be prompted to approve the application again however.\n
     \n{accessTokens} can contain up to 20 access tokens. These are obtained by authenticating
     a user using OAuth 2.0.\n \nThis method returns a list of access_tokens."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
@@ -37,9 +42,9 @@ apis:
   tags: Authentication
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/access-tokens-accesstokens-invalidate-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/apps-accesstokens-de-authenticate-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/access-tokens-accesstokens-invalidate-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/apps-accesstokens-de-authenticate-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
