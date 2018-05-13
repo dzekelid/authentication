@@ -26,19 +26,20 @@ modified: "2018-05-12"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stack Exchange Get Acces Tokens
-  description: "Reads the properties for a set of access tokens.\n \n{accessTokens}
-    can contain up to 20 access tokens. These are obtained by authenticating a user
-    using OAuth 2.0.\n \nThis method returns a list of access_tokens."
+- name: Stack Exchange Invalidate Acces Tokens
+  description: "Immediately expires the access tokens passed. This method is meant
+    to allow an application to discard any active access tokens it no longer needs.\n
+    \n{accessTokens} can contain up to 20 access tokens. These are obtained by authenticating
+    a user using OAuth 2.0.\n \nThis method returns a list of access_tokens."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Authentication
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/access-tokens-accesstokens-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/access-tokens-accesstokens-invalidate-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/access-tokens-accesstokens-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/access-tokens-accesstokens-invalidate-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
