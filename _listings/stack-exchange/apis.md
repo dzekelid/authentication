@@ -1,32 +1,52 @@
 ---
 name: Stack Exchange
+x-slug: stack-exchange
 description: Stack Exchange is a network of question and answer websites on diverse
   topics in many different fields, each site covering a specific topic, where questions,
   answers, and users are subject to a reputation award process. The sites are modeled
   after Stack Overflow, a forum for computer programming questions that was the original
   site in this network. The reputation system is designed to allow the sites to be
   self-moderating.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/253_logo.png
 x-kinRank: "8"
 x-alexaRank: ""
-tags:
-- Streamrank
-- Stack
-- Question Answer
-- Plug in
-- My API Stack
-- Media
-- Imports
-- Content
-- Code
-- Citations
-- Answers
-created: "2018-05-12"
-modified: "2018-05-12"
+tags: Authentication
+created: "2018-05-20"
+modified: "2018-05-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Stack Exchange Get Acces Tokens
+  x-api-slug: stack-exchange
+  description: "Reads the properties for a set of access tokens.\n \n{accessTokens}
+    can contain up to 20 access tokens. These are obtained by authenticating a user
+    using OAuth 2.0.\n \nThis method returns a list of access_tokens."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/253_logo.png
+  humanURL: https://stackexchange.com/
+  baseURL: https://api.stackexchange.com//2.2//access-tokens/{accessTokens}
+  tags: Authentication,Access Tokens
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/accesstokensaccesstokens-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/accesstokensaccesstokens-get-openapi.md
+- name: Stack Exchange Invalidate Acces Tokens
+  x-api-slug: stack-exchange
+  description: "Immediately expires the access tokens passed. This method is meant
+    to allow an application to discard any active access tokens it no longer needs.\n
+    \n{accessTokens} can contain up to 20 access tokens. These are obtained by authenticating
+    a user using OAuth 2.0.\n \nThis method returns a list of access_tokens."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/253_logo.png
+  humanURL: https://stackexchange.com/
+  baseURL: https://api.stackexchange.com//2.2//access-tokens/{accessTokens}/invalidate
+  tags: Authentication,Access Tokens
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/accesstokensaccesstokensinvalidate-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/accesstokensaccesstokensinvalidate-get-openapi.md
 - name: Stack Exchange De-Authenticate Token
+  x-api-slug: stack-exchange
   description: "Passing valid access_tokens to this method causes the application
     that created them to be de-authorized by the user associated with each access_token.
     This will remove the application from their apps tab, and cause all other existing
@@ -36,15 +56,30 @@ apis:
     itself, the user will be prompted to approve the application again however.\n
     \n{accessTokens} can contain up to 20 access tokens. These are obtained by authenticating
     a user using OAuth 2.0.\n \nThis method returns a list of access_tokens."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/253_logo.png
+  humanURL: https://stackexchange.com/
+  baseURL: https://api.stackexchange.com//2.2//apps/{accessTokens}/de-authenticate
+  tags: Authentication,Access Tokens
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/appsaccesstokensdeauthenticate-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/appsaccesstokensdeauthenticate-get-openapi.md
+- name: Stack Exchange
+  x-api-slug: stack-exchange
+  description: Stack Exchange is a network of question and answer websites on diverse
+    topics in many different fields, each site covering a specific topic, where questions,
+    answers, and users are subject to a reputation award process. The sites are modeled
+    after Stack Overflow, a forum for computer programming questions that was the
+    original site in this network. The reputation system is designed to allow the
+    sites to be self-moderating.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Authentication
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/apps-accesstokens-de-authenticate-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/apps-accesstokens-de-authenticate-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/openapi.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
