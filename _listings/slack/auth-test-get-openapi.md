@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 x-collection-name: Slack
-x-complete: 1
+x-complete: 0
 info:
-  title: Slack
-  description: one-way-to-interact-with-the-slack-platform-is-its-http-rpcbased-web-api-a-collection-of-methods-requiring-oauth-2-0based-user-bot-or-workspace-tokens-blessed-with-related-oauth-scopes-
+  title: Slack Test Auth
+  description: Checks authentication & identity.
   version: 1.0.3
 host: slack.com
 basePath: /api
@@ -51,4 +51,17 @@ paths:
       tags:
       - Messaging
       - Authentication
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---

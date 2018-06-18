@@ -13,10 +13,10 @@ description: Amazon Cognito lets you easily add user sign-up and sign-in to your
   authentication, and sync across devices.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Authentication
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-cognito/apis.md
 specificationVersion: "0.14"
 apis:
