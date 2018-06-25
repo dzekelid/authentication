@@ -5,7 +5,7 @@ description: This is a repository of authentication APIs, self-contained as a Gi
   operations.
 image: http://template.streamdata.gallery/assets/authentication.png
 created: "2018-02-24"
-modified: "2018-06-17"
+modified: "2018-06-25"
 url: http://authentication.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
