@@ -8,39 +8,16 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "95684"
 tags: Authentication
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/mattermost/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Mattermost API Update a users authentication method
-  x-api-slug: mattermost-api
-  description: |-
-    Updates a user's authentication method. This can be used to change them to/from LDAP authentication for example.
-
-    __Minimum server version__: 4.6
-    ##### Permissions
-    Must have the `edit_other_users` permission.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
-  humanURL: https://mattermost.com
-  baseURL: https://your-mattermost-url.com//api/v4//users/{user_id}/auth
-  tags: Users,Authentication,Method
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/mattermost/usersuser-idauth-put-openapi.md
-- name: Mattermost API
-  x-api-slug: mattermost-api
-  description: Open source, private cloud Slack-alternative, Workplace messaging for
-    web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure,
-    configurable, and scalable from teams to the enterprise.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
-  humanURL: https://mattermost.com
-  baseURL: https://your-mattermost-url.com//api/v4
-  tags: Authentication
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/mattermost/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://matrix.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://mattermost.stack.network
 - type: x-blog
   url: https://about.mattermost.com/blog/
 - type: x-blog-rss

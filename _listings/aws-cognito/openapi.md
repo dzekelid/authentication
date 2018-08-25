@@ -12,38 +12,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AdminRespondToAuthChallenge:
-    get:
-      summary: Admin Respond To Auth Challenge
-      description: Responds to an authentication challenge, as an administrator.
-      operationId: adminRespondToAuthChallenge
-      x-api-path-slug: actionadminrespondtoauthchallenge-get
-      parameters:
-      - in: query
-        name: ChallengeName
-        description: The name of the challenge
-        type: string
-      - in: query
-        name: ChallengeResponses
-        description: The challenge response
-        type: string
-      - in: query
-        name: ClientId
-        description: The client ID
-        type: string
-      - in: query
-        name: Session
-        description: The session
-        type: string
-      - in: query
-        name: UserPoolId
-        description: The ID of the Amazon Cognito user pool
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Authentication Challenge
   /?Action=InitiateAuth:
     get:
       summary: Initiate Auth
@@ -72,32 +40,36 @@ paths:
           description: OK
       tags:
       - Authentication
-  /?Action=RespondToAuthChallenge:
+  /?Action=AdminInitiateAuth:
     get:
-      summary: Respond To Auth Challenge
-      description: Responds to the authentication challenge.
-      operationId: respondToAuthChallenge
-      x-api-path-slug: actionrespondtoauthchallenge-get
+      summary: Admin Initiate Auth
+      description: Initiates the authentication flow, as an administrator.
+      operationId: adminInitiateAuth
+      x-api-path-slug: actionadmininitiateauth-get
       parameters:
       - in: query
-        name: ChallengeName
-        description: The name of the challenge
+        name: AuthFlow
+        description: The authentication flow
         type: string
       - in: query
-        name: ChallengeResponses
-        description: The responses to the authentication challenge
+        name: AuthParameters
+        description: The authentication parameters
         type: string
       - in: query
         name: ClientId
-        description: The client ID
+        description: The client app ID
         type: string
       - in: query
-        name: Session
-        description: The session
+        name: ClientMetadata
+        description: The client app metadata
+        type: string
+      - in: query
+        name: UserPoolId
+        description: The ID of the Amazon Cognito user pool
         type: string
       responses:
         200:
           description: OK
       tags:
-      - Authentication Challenges
+      - Authnetication
 ---
