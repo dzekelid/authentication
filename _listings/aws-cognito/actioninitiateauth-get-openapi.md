@@ -41,6 +41,70 @@ paths:
           description: OK
       tags:
       - Authentication
+  /?Action=AdminInitiateAuth:
+    get:
+      summary: Admin Initiate Auth
+      description: Initiates the authentication flow, as an administrator.
+      operationId: adminInitiateAuth
+      x-api-path-slug: actionadmininitiateauth-get
+      parameters:
+      - in: query
+        name: AuthFlow
+        description: The authentication flow
+        type: string
+      - in: query
+        name: AuthParameters
+        description: The authentication parameters
+        type: string
+      - in: query
+        name: ClientId
+        description: The client app ID
+        type: string
+      - in: query
+        name: ClientMetadata
+        description: The client app metadata
+        type: string
+      - in: query
+        name: UserPoolId
+        description: The ID of the Amazon Cognito user pool
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Authnetication
+  /?Action=AdminRespondToAuthChallenge:
+    get:
+      summary: Admin Respond To Auth Challenge
+      description: Responds to an authentication challenge, as an administrator.
+      operationId: adminRespondToAuthChallenge
+      x-api-path-slug: actionadminrespondtoauthchallenge-get
+      parameters:
+      - in: query
+        name: ChallengeName
+        description: The name of the challenge
+        type: string
+      - in: query
+        name: ChallengeResponses
+        description: The challenge response
+        type: string
+      - in: query
+        name: ClientId
+        description: The client ID
+        type: string
+      - in: query
+        name: Session
+        description: The session
+        type: string
+      - in: query
+        name: UserPoolId
+        description: The ID of the Amazon Cognito user pool
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Authentication Challenge
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

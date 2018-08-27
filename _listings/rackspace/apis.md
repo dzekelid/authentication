@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/241-racksp
 x-kinRank: "9"
 x-alexaRank: "4115"
 tags: Authentication
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/rackspace/apis.md
 specificationVersion: "0.14"
 apis: []

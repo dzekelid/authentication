@@ -8,11 +8,35 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: ""
 tags: Authentication
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/gitlab/apis.md
 specificationVersion: "0.14"
 apis:
+- name: API title - Post Internal Lfs Authenticate
+  x-api-slug: v3internallfs-authenticate-post
+  description: Post internal lfs authenticate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
+  humanURL: http://gitlab.com
+  baseURL: https://localhost:3000//api
+  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/gitlab/v3internallfs-authenticate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/gitlab/v3internallfs-authenticate-post-openapi.md
+- name: API title - Post Internal Lfs Authenticate
+  x-api-slug: v3internallfs-authenticate-post
+  description: Post internal lfs authenticate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
+  humanURL: http://gitlab.com
+  baseURL: https://localhost:3000//api
+  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/gitlab/v3internallfs-authenticate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/gitlab/v3internallfs-authenticate-post-openapi.md
 - name: API title - Post Internal Lfs Authenticate
   x-api-slug: v3internallfs-authenticate-post
   description: Post internal lfs authenticate.

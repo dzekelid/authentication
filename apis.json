@@ -1,0 +1,1458 @@
+{
+	"name": "Streadata.io API Gallery - Authentication",
+	"description": "This is a repository of authentication APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/authentication.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://authentication.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/sendgrid/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Twilio",
+			"x-api-slug": "twilio",
+			"description": "Cloud communications platform for building SMS, Voice & Messaging applications on an API built for global scale. Get started with a free trial.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg",
+			"humanURL": "http://www.twilio.com",
+			"baseURL": "https://api.twilio.com//2010-04-01/",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/twilio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Reverb",
+			"x-api-slug": "reverb",
+			"description": "Reverb&#8217;s mission is to connect people with meaningful content.Reverb was created to find and connect the rich associations between words, ideas, content, and people. Through our products, we enhance broader knowledge around favorite topics by surfacing interesting information readers might not uncover on their own. We make tools for content understanding at every level from the single word on up. Wordnik: Get a full view of any word you???re interested in, with definitions, example sentences, related words, tweets from Twitter, pictures from Flickr, and much more.Reverb for Publishers: Reverb for Publishers brings relevant content to web audiences and surfaces additional content for publishers.Reverb for Developers: Reverb is committed to the open-source community and is proudly contributing infrastructure software to power applications and enterprises both small and gigantic. Our involvement with the Wordnik API, Scalatra, Swagger and Atmosphere is detailed on our site.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png",
+			"humanURL": "https://helloreverb.com/app",
+			"baseURL": "https://api.reverb.com//api",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/reverb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AT&T Dev Program",
+			"x-api-slug": "att-dev-program",
+			"description": "AT&T Official Site. Premium entertainment, the latest cell phones & tablets, unlimited data plans, and high-speed internet. Join the nations best network today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/156-at&t-dev-program.jpg",
+			"humanURL": "http://att.com",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/att-dev-program/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rackspace",
+			"x-api-slug": "rackspace",
+			"description": "Host on our dedicated or cloud infrastructure or through one of our partners. Leverage our expertise to run fast and lean. We offer web, app or email hosting, data services and managed security solutions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/241-rackspace.jpg",
+			"humanURL": "http://www.rackspace.com/",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/rackspace/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stack Exchange",
+			"x-api-slug": "stack-exchange",
+			"description": "After someone asks a question, members of the community propose answers. Others vote on those answers. Very quickly, the answers with the most votes rise to the top. You dont have to read through a lot of discussion to find the best answer.    Like to...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg",
+			"humanURL": "http://stackexchange.com",
+			"baseURL": "https://api.stackexchange.com//2.2",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Gigya",
+			"x-api-slug": "gigya",
+			"description": "Identify, engage & build single customer views to create relevant, personalized experiences. Designed to meet privacy, compliance & security best practices.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/600-gigya.jpg",
+			"humanURL": "http://gigya.com/",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/gigya/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GoodData",
+			"x-api-slug": "gooddata",
+			"description": "GoodData goes beyond traditional business intelligence and analytics delivering insights at the moment of action to drive better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/601-gooddata.jpg",
+			"humanURL": "http://gooddata.com",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/gooddata/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Spreaker",
+			"x-api-slug": "spreaker",
+			"description": "Discover and listen to your favorite podcasts for free or sign up to create your own!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg",
+			"humanURL": "http://spreaker.com",
+			"baseURL": "http://api.spreaker.com//",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/spreaker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Instructure",
+			"x-api-slug": "instructure",
+			"description": "Instructure makes software that makes smarter people. Products include Canvas LMS, Bridge and Canvas Network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
+			"humanURL": "http://instructure.com",
+			"baseURL": "https://canvas.instructure.com//api/v1",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/instructure/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Janrain",
+			"x-api-slug": "janrain",
+			"description": "The Janrain User Management Platform (JUMP) helps organizations succeed on the social web by providing leading technology to leverage the popularity of social networks and identities for user acquisition, engagement, and enhanced customer intelligence. Our solutions, including social login, social sharing, social profile data collection and storage, access to the social graph, game mechanics, and digital strategy services, improve the effectiveness of online marketing initiatives for leading brands like Fox, Universal Music Group, Whole Foods, MTV, Purina, Avis and Dr Pepper.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/825-janrain.jpg",
+			"humanURL": "http://janrain.com",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/janrain/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "miiCard",
+			"x-api-slug": "miicard",
+			"description": "miiCard (My Internet Identity) is a global Identity as a Service solution that proves &lsquo;you are who you say you are&rsquo;, purely online, in minutes and to the same level as a physical passport or photo ID check. Through a patented process that leverages the trust between an individual and their financial institution, miiCard establishes identity to Level of Assurance 3+ and meets Know Your Customer and Anti-Money Laundering identity guidelines, enabling the sale of regulated products and services purely online. Combining online identity proofing with strong authentication, miiCard provides the trust and security required for people and businesses to meet and transact with confidence in a purely digital environment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/847_logo.png",
+			"humanURL": "http://www.miicard.com",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/miicard/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Duo Security",
+			"x-api-slug": "duo-security",
+			"description": "Duo???s Trusted Access platform verifies the identity of your users with two-factor authentication and security health of their devices before they connect to the apps you want them to access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1050-duo-security.jpg",
+			"humanURL": "http://www.duosecurity.com",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/duo-security/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LoginRadius",
+			"x-api-slug": "loginradius",
+			"description": "Simplify customer authentication and authorization to amplify your business with better understanding of your audience using our customer identity management",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1086-loginradius.jpg",
+			"humanURL": "http://www.loginradius.com/",
+			"baseURL": ":///login/http://localhost:8008/_matrix/client/api/v1",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/loginradius/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Authy",
+			"x-api-slug": "authy",
+			"description": "Two-factor authentication (2FA) adds an additional layer of protection beyond passwords. Download our free app today and follow our easy to use guides to protect your accounts and personal information.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1306-authy.jpg",
+			"humanURL": "https://www.authy.com/",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/authy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PassDefense",
+			"x-api-slug": "passdefense",
+			"description": "",
+			"image": "",
+			"humanURL": "http://passdefense.com",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/passdefense/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LoginTC",
+			"x-api-slug": "logintc",
+			"description": "The Best Solution for Two Factor Authentication. The most simple and secure way to protect company logins from account takeovers and data theft.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1800-logintc.jpg",
+			"humanURL": "https://www.logintc.com/",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/logintc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "APImetrics",
+			"x-api-slug": "apimetrics",
+			"description": "API performance monitoring, Cloud Service, SLA monitoring and analysis that gives you answers, not excuses. Find out how today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg",
+			"humanURL": "http://apimetrics.io",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/apimetrics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Okta",
+			"x-api-slug": "okta",
+			"description": "Provide secure identity management and single sign-on to any application, whether in the cloud, on-premises or on a mobile device for your employees, partners and customers with Okta.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1937-okta.jpg",
+			"humanURL": "https://www.okta.com",
+			"baseURL": "https://example.com//api/v1",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/okta/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "University of Warwick",
+			"x-api-slug": "university-of-warwick",
+			"description": "The official home of Warwick Students Union on Facebook. Click Like for all the latest info about events, campaigns and happenings at your SU.     Its your Union. Be part of it!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2056-university-of-warwick.jpg",
+			"humanURL": "http://www.warwicksu.com",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/university-of-warwick/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "1LINX",
+			"x-api-slug": "1linx",
+			"description": "1LINX provides Simple and Smart APIs for Data",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2505-1linx.jpg",
+			"humanURL": "http://www.1linx.com/",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/1linx/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Wordnik",
+			"x-api-slug": "wordnik",
+			"description": "Wordnik is an online English dictionary and language resource that provides dictionary and thesaurus content, some of it based on print dictionaries such as the Century Dictionary, the American Heritage Dictionary, WordNet, and GCIDE. Wordnik has collected a corpus of billions of words which it uses to display example sentences, allowing it to provide information on a much larger set of words than a typical dictionary.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg",
+			"humanURL": "http://wordnik.com",
+			"baseURL": "https://api.wordnik.com//v4",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/wordnik/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OAuth.io",
+			"x-api-slug": "oauth-io",
+			"description": "Integrate 100+ OAuth providers in minutes. Setup your keys, install oauth.js, and you are ready to play !",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2715-oauth-io.jpg",
+			"humanURL": "https://oauth.io/home/pricing",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/oauth-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Meetup",
+			"x-api-slug": "meetup",
+			"description": "Find Meetups so you can do more of what matters to you. Or create your own group and meet people near you who share your interests.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg",
+			"humanURL": "http://meetup.com",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/meetup/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Gluu",
+			"x-api-slug": "gluu",
+			"description": "Gluu allows Organizations to safely manage identity security. Gluu supports SAML2.0, OpenID Content, idp shibboleth, idp saml, open source sso, active directory saml. Free Trial Available.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/10213-gluu.jpg",
+			"humanURL": "http://www.gluu.org/",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/gluu/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Flickr",
+			"x-api-slug": "flickr",
+			"description": "Flickr (pronounced flicker) is an image hosting and video hosting website, and web services suite that was created by Ludicorp in 2004 and acquired by Yahoo in 2005. In addition to being a popular website for users to share and embed personal photographs, and effectively an online community, the service is widely used by photo researchers and by bloggers to host images that they embed in blogs and social media.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg",
+			"humanURL": "http://www.flickr.com/",
+			"baseURL": "https://api.flickr.com//services/",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/flickr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Auth0",
+			"x-api-slug": "auth0",
+			"description": "The new way to solve Identity",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg",
+			"humanURL": "https://auth0.com/",
+			"baseURL": "https://login.auth0.com//users",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/auth0/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Instagram",
+			"x-api-slug": "instagram",
+			"description": "Instagram is an online mobile photo-sharing, video-sharing and social networking service that enables its users to take pictures and videos, and share them on a variety of social networking platforms, such as Facebook, Twitter, Tumblr and Flickr. A distinctive feature is that it confines photos to a square shape, similar to Kodak Instamatic and Polaroid images, in contrast to the 4:3 aspect ratio typically used by mobile device cameras. Users can also apply digital filters to their images. The maximum duration for Instagram videos is 15 seconds.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png",
+			"humanURL": "http://instagram.com",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/instagram/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Slack",
+			"x-api-slug": "slack",
+			"description": "Slack is a team communication application providing services such as real-time messaging, archiving, and to search for modern teams. It offers one-on-one messaging, private groups, persistent chat rooms, and direct messaging as well as group chats organized by topic. All content inside Slack is searchable from one search box and it integrates with a number of third-party services, including Google Docs, Dropbox, Heroku, Crashlytics, GitHub, and Zendesk.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png",
+			"humanURL": "https://api.slack.com",
+			"baseURL": "https://slack.com//api",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/slack/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenUMA",
+			"x-api-slug": "openuma",
+			"description": "At ForgeRock we provide an identity and access platform to secure every online relationship for the enterprise market, educational sector and even entire countries.",
+			"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png",
+			"humanURL": "https://forgerock.org/openuma/",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/openuma/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Shopify",
+			"x-api-slug": "shopify",
+			"description": "Shopify is a commerce platform that allows anyone to easily sell online at a retail location and everywhere in between. It offers a professional online storefront, a payment solution to accept credit cards, and the Shopify POS application to power retail sales.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png",
+			"humanURL": "https://www.shopify.com/",
+			"baseURL": "https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/shopify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Centrify",
+			"x-api-slug": "centrify",
+			"description": "Centrify delivers Zero Trust Security through the power of Next-Gen Access. Secure access to apps, endpoints & infrastructure. Click for a FREE Trial!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19113-centrify-(slackbot).jpg",
+			"humanURL": "https://www.centrify.com",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/centrify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "VMWare",
+			"x-api-slug": "vmware",
+			"description": "At VMware, we believe that software has the power to unlock new opportunities for people and our planet. We look beyond the barriers of compromise to engineer new ways to make technologies work together seamlessly. Our software forms a digital foundation that powers the apps, services and experiences that are transforming the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png",
+			"humanURL": "http://vmware.com",
+			"baseURL": "https://example.com//suite-api/api",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/vmware/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2 Container Registry Service",
+			"x-api-slug": "aws-ec2-container-registry-service",
+			"description": "Amazon EC2 Container Registry (ECR) is a fully-managedDockercontainer registry that makes it easy for developers to store, manage, and deploy Docker container images. Amazon ECR is integrated withAmazon EC2 Container Service (ECS), simplifying your development to production workflow. Amazon ECR eliminates the need to operate your own container repositories or worry about scaling the underlying infrastructure. Amazon ECR hosts your images in a highly available and scalable architecture, allowing you to reliably deploy containers for your applications. Integration with AWS Identity and Access Management (IAM) provides resource-level control of each repository. With Amazon ECR, there are no upfront fees or commitments. You pay only for the amount of data you store in your repositories and data transferred to the Internet.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECR.png",
+			"humanURL": "https://aws.amazon.com/ecr/",
+			"baseURL": ":///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-ec2-container-registry-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Storage Gateway Service",
+			"x-api-slug": "aws-storage-gateway-service",
+			"description": "The AWS Storage Gateway service seamlessly enables hybrid storage between on-premises storage environments andthe AWS Cloud. It combines a multi-protocol storage appliance with highly efficient network connectivity toAmazon cloud storageservices, delivering local performance with virtually unlimited scale. Customers use it in remote offices and datacenters for hybrid cloud workloads, backup and restore, archive, disaster recovery, and tiered storage.The Storage Gateway virtual appliance connects seamlessly to your local infrastructure as a file server, as a volume, or as a virtual tape library (VTL). This seamless connection makes it simple for organizations to augment existing on-premises storage investments with the high scalability, extreme durability and low cost of cloud storage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png",
+			"humanURL": "https://aws.amazon.com/storagegateway/",
+			"baseURL": ":///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-storage-gateway-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS RDS",
+			"x-api-slug": "aws-rds",
+			"description": "Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale arelational databasein the cloud. It provides cost-efficient and resizable capacity while managing time-consuming database administration tasks, freeing you up to focus on your applications and business. Amazon RDS provides you six familiar database engines to choose from, includingAmazon Aurora,PostgreSQL,MySQL,MariaDB,Oracle, andMicrosoft SQL Server.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png",
+			"humanURL": "https://aws.amazon.com/rds/",
+			"baseURL": ":///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-rds/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS ElastiCache",
+			"x-api-slug": "aws-elasticache",
+			"description": "Amazon ElastiCache is a web service that makes it easy to deploy, operate, and scale an in-memory data store or cache in the cloud. The service improves the performance of web applications by allowing you to retrieve information from fast, managed, in-memory data stores, instead of relying entirely on slower disk-based databases. Amazon ElastiCache automatically detects and replaces failed nodes, reducing the overhead associated with self-managed infrastructures and provides a resilient system that mitigates the risk of overloaded databases, which slow website and application load times. Through integration with Amazon CloudWatch, Amazon ElastiCache provides enhanced visibility into key performance metrics associated with your Redis or Memcached nodes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png",
+			"humanURL": "https://aws.amazon.com/elasticache/",
+			"baseURL": ":///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-elasticache/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Redshift",
+			"x-api-slug": "aws-redshift",
+			"description": "Amazon Redshift is a fast, fully managed, petabyte-scaledata warehousethat makes it simple and cost-effective to analyze all your data using your existing business intelligence tools. Start small for $0.25 per hour with no commitments and scale to petabytes for $1,000 per terabyte per year, less than a tenth the cost of traditional solutions. Customers typically see 3x compression, reducing their costs to $333 per uncompressed terabyte per year.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png",
+			"humanURL": "https://aws.amazon.com/redshift/",
+			"baseURL": ":///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-redshift/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Config",
+			"x-api-slug": "aws-config",
+			"description": "AWS Config is a fully managed service that provides you with an AWS resource inventory, configuration history, and configuration change notifications to enable security and governance. Config Rules enables you to create rules that automatically check the configuration of AWS resources recorded by AWS Config.With AWS Config, you can discover existing and deleted AWS resources, determine your overall compliance against rules, and dive into configuration details of a resource at any point in time. These capabilities enable compliance auditing, security analysis, resource change tracking, and troubleshooting.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png",
+			"humanURL": "https://aws.amazon.com/config/",
+			"baseURL": ":///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-config/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Identity and Access Management",
+			"x-api-slug": "aws-identity-and-access-management",
+			"description": "AWS Identity and Access Management (IAM) enables you to securely control access to AWS services and resources for your users. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources.IAM is a feature of your AWS account offered at no additional charge. You will be charged only for use of other AWS services by your users.To get started using IAM, orif you have already registered with AWS, go to theAWS Management Consoleand get started with theseIAM Best Practices.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png",
+			"humanURL": "https://aws.amazon.com/iam/",
+			"baseURL": ":///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-identity-and-access-management/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Security Token Service",
+			"x-api-slug": "aws-security-token-service",
+			"description": "The AWS Security Token Service (STS) is a web service that enables you to request temporary, limited-privilege credentials for AWS Identity and Access Management (IAM) users or for users that you authenticate (federated users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM_AWSSTS.png",
+			"humanURL": "http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html",
+			"baseURL": ":///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-security-token-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Directory Service",
+			"x-api-slug": "aws-directory-service",
+			"description": "AWS Directory Service for Microsoft Active Directory (Enterprise Edition), also known as AWS Microsoft AD, enables your directory-aware workloads and AWS resources to use managed Active Directory in the AWS Cloud. The Microsoft AD service is built on actual Microsoft Active Directory and does not require you to synchronize or replicate data from your existing Active Directory to the cloud. You can use standard Active Directory administration tools and take advantage of built-in Active Directory features such as Group Policy, trusts, and single sign-on. With Microsoft AD, you can easily joinAmazon EC2andAmazon RDS for SQL Serverinstances to a domain, and useAWS Enterprise IT applicationssuch asAmazon WorkSpaceswith Active Directory users and groups.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png",
+			"humanURL": "https://aws.amazon.com/directoryservice/",
+			"baseURL": ":///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-directory-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Cognito",
+			"x-api-slug": "aws-cognito",
+			"description": "Amazon Cognito lets you easily add user sign-up and sign-in to your mobile and web apps. With Amazon Cognito, you also have the options to authenticate users through social identity providers such as Facebook, Twitter, or Amazon, with SAML identity solutions, or by using your own identity system. In addition, Amazon Cognito enables you to save data locally on users devices, allowing your applications to work even when the devices are offline. You can then synchronize data across users devices so that their app experience remains consistent regardless of the device they use. With Amazon Cognito, you can focus on creating great app experiences instead of worrying about building, securing, and scaling a solution to handle user management, authentication, and sync across devices.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png",
+			"humanURL": "https://aws.amazon.com/cognito/",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-cognito/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2",
+			"x-api-slug": "aws-ec2",
+			"description": "Amazon Elastic Compute Cloud is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon&rsquo;s proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change. Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/",
+			"baseURL": ":///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-ec2/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Route 53",
+			"x-api-slug": "aws-route-53",
+			"description": "Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service. It is designed to give developers and businesses an extremely reliable and cost effective way to route end users to Internet applications by translating names like www.example.com into the numeric IP addresses like 192.0.2.1 that computers use to connect to each other. Amazon Route 53 is fully compliant with IPv6 as well.Amazon Route 53 effectively connects user requests to infrastructure running in AWS &ndash; such as Amazon EC2 instances, Elastic Load Balancing load balancers, or Amazon S3 buckets &ndash; and can also be used to route users to infrastructure outside of AWS. You can use Amazon Route 53 to configure DNS health checks to route traffic to healthy endpoints or to independently monitor the health of your application and its endpoints. Amazon Route 53 Traffic Flow makes it easy for you to manage traffic globally through a variety of routing types, including Latency Based Routing, Geo DNS, and Weighted Round Robin&mdash;all of which can be combined with DNS Failover in order to enable a variety of low-latency, fault-tolerant architectures. Using Amazon Route 53 Traffic Flow&rsquo;s simple visual editor, you can easily manage how your end-users are routed to your application&rsquo;s endpoints&mdash;whether in a single AWS region or distributed around the globe. Amazon Route 53 also offers Domain Name Registration &ndash; you can purchase and manage domain names such as example.com and Amazon Route 53 will automatically configure DNS settings for your domains.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png",
+			"humanURL": "https://aws.amazon.com/route53/",
+			"baseURL": ":///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-route-53/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Key Management Service",
+			"x-api-slug": "google-cloud-key-management-service",
+			"description": "Cloud KMS is a cloud-hosted key management service that lets you manage encryption for your cloud services the same way you do on-premises. You can generate, use, rotate and destroy AES256 encryption keys. Cloud KMS is integrated with IAM and Cloud Audit Logging so that you can manage permissions on individual keys, and monitor how these are used. Use Cloud KMS to protect secrets and other sensitive data which you need to store in Google Cloud Platform.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kms-lead.png",
+			"humanURL": "https://cloud.google.com/kms/",
+			"baseURL": "://cloudkms.googleapis.com//",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/google-cloud-key-management-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud User Accounts",
+			"x-api-slug": "google-cloud-user-accounts",
+			"description": "Service for managing the global Google Cloud user accounts. This API reference is organized by resource type. Each resource type has one or more data representations and one or more methods.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-icon.png",
+			"humanURL": "https://cloud.google.com/compute/docs/access/user-accounts/api/latest/",
+			"baseURL": "://www.googleapis.com//clouduseraccounts/vm_alpha/projects",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/google-cloud-user-accounts/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Content API for Shopping",
+			"x-api-slug": "google-content-api-for-shopping",
+			"description": "API allowing retailers to manage their product feed content programmatically. Providing item-level data quality information: See if an item was disapproved because a landing page URL isn&rsquo;t working on a mobile device or if unique product identifiers are inaccurate. Faster pricing and availability updates: Ensure customers have the latest price-points and know what&rsquo;s in-stock before they click through to your site. More integration options: The newer API supports a broader choice of programming languages and data formats.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-shopping-API1.jpg",
+			"humanURL": "https://developers.google.com/shopping-content/v2/quickstart",
+			"baseURL": "://www.googleapis.com//content/v2",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/google-content-api-for-shopping/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Identity Access Management",
+			"x-api-slug": "google-cloud-identity-access-management",
+			"description": "Google Cloud Identity &amp; Access Management (IAM) lets administrators authorize who can take action on specific resources, giving you full control and visibility to manage cloud resources centrally. For established enterprises with complex organizational structures, hundreds of workgroups and potentially many more projects, Cloud IAM provides a unified view into security policy across your entire organization, with built-in auditing to ease compliance processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/right-roles.png",
+			"humanURL": "https://cloud.google.com/iam/",
+			"baseURL": "://iam.googleapis.com//",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/google-cloud-identity-access-management/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google OAuth2",
+			"x-api-slug": "google-oauth2",
+			"description": "Google APIs use the OAuth 2.0 protocol for authentication and authorization. Google supports common OAuth 2.0 scenarios such as those for web server, installed, and client-side applications. To begin, obtain OAuth 2.0 client credentials from the Google API Console. Then your client application requests an access token from the Google Authorization Server, extracts a token from the response, and sends the token to the Google API that you want to access. For an interactive demonstration of using OAuth 2.0 with Google (including the option to use your own client credentials), experiment with the OAuth 2.0 Playground.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-OAuth@2x.png",
+			"humanURL": "https://developers.google.com/identity/protocols/OAuth2",
+			"baseURL": "://www.googleapis.com//",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/google-oauth2/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Tag Manager",
+			"x-api-slug": "google-tag-manager",
+			"description": "Deploy and update measurement tags on your websites and mobile apps without major code changes and app releases. Use Google Tag Manager to manage tags (such as tracking and marketing optimization JavaScript tags) on your site. Without editing your site code, you use GTM user interface to add and update AdWords, Google Analytics, Floodlight, and non-Google tags. This reduces errors and allows you to to deploy tags on your site quickly.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/googl_tag_manager_gplus-250.png",
+			"humanURL": "https://developers.google.com/tag-manager/",
+			"baseURL": "://www.googleapis.com//tagmanager/v1",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/google-tag-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Key Vault",
+			"x-api-slug": "azure-key-vault",
+			"description": "Azure Key Vault offers an easy, cost-effective way to safeguard keys and other secrets in the cloud by using hardware security modules (HSMs). Protect cryptographic keys and small secrets like passwords with keys stored in HSMs. For added assurance, import or generate your keys in HSMs that are certified to FIPS 140-2 level 2 and Common Criteria EAL4+ standards, so that your keys stay within the HSM boundary. Key Vault is designed so that Microsoft does not see or extract your keys. Create new keys for Dev-Test in minutes and migrate seamlessly to production keys managed by security operations. Key Vault scales to meet the demands of your cloud applications without the hassle required to provision, deploy, and manage HSMs and key management software.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-enhance-data-protection.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/key-vault/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/azure-key-vault/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/lykke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stride",
+			"x-api-slug": "stride",
+			"description": "Stride is a cloud-based team business communication and collaboration tool, launched by Atlassian to replace the cloud-based version of HipChat. Stride software is available to download onto computers running Windows, Mac or Linux, as well as Android, iOS smartphones, and tablets",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg",
+			"humanURL": "https://www.stride.com/",
+			"baseURL": "https://api.atlassian.com//",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stride/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ParallelDots",
+			"x-api-slug": "paralleldots",
+			"description": "ParallelDots is one of the best applied AI research groups in the world. We work with enterprises globally to tackle challenging business problems and create the winners of tomorrow. We also provide AI consulting services to explore the what, why, how and who about deploying AI in businesses. Try-out our cutting edge text analysis APIs and join the community of 1,000+ global users. Contact us at contact@paralleldots.com and tell us about the challenging business problems that you are facing.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png",
+			"humanURL": "https://www.paralleldots.com/",
+			"baseURL": "https://apis.paralleldots.com//v3",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/paralleldots/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mattermost",
+			"x-api-slug": "mattermost",
+			"description": "Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure, configurable, and scalable from teams to the enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png",
+			"humanURL": "https://mattermost.com",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/mattermost/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Gravitee IO",
+			"x-api-slug": "gravitee-io",
+			"description": "Gravitee.io is a flexible, lightweight and blazing-fast open source API Management solution that helps your organization control finely who, when and how users access your APIs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28215-gravitee-io.jpg",
+			"humanURL": "https://gravitee.io",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/gravitee-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Authentiq Connect",
+			"x-api-slug": "authentiq-connect",
+			"description": "Authentiq offers the convenience of passwordless authentication with the safety of two step verification. Sign up for Authentiq today, and never think about authentication again.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/authentiq-logo.png",
+			"humanURL": "http://authentiq.com",
+			"baseURL": "https://connect.authentiq.io//",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/authentiq-connect/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rebilly",
+			"x-api-slug": "rebilly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
+			"humanURL": "https://www.rebilly.com",
+			"baseURL": "https://api.rebilly.com//v2.1",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/rebilly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ship Station",
+			"x-api-slug": "ship-station",
+			"description": "ShipStation is a web-based shipping solution that streamlines the order fulfillment process for your online business. ShipStation consolidates orders from over 70 ecommerce channels, creates shipping labels, packing slips, and pick lists in batch, communicates tracking information to your customers, provides endless automation, filters, and views, wireless printing, a mobile app, and a lot more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ShipStation-stacked-blue.png",
+			"humanURL": "http://bit.ly/_ShipStation",
+			"baseURL": "https://ssapi.shipstation.com//",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/ship-station/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Storecove",
+			"x-api-slug": "storecove",
+			"description": "Storecove is Netherlands&rsquo; first online platform that provides people and companies with a way to view all their invoices in one online overview. Dolf Kars, founder and former owner of Videostrip (acquired by RTL Nederland), established Storecove in 2014 with cofounder Michael Riviera and Willem Stemfoort. Storecove mainly focuses on automatically collecting invoices, which saves time and money.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/storecove-logo.jpg",
+			"humanURL": "http://www.storecove.com",
+			"baseURL": "https://api.storecove.com//api/v2",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/storecove/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Backupify",
+			"x-api-slug": "backupify",
+			"description": "",
+			"image": "",
+			"humanURL": "http://backupify.com",
+			"baseURL": "https://api.backupify.com//",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/backupify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ParetoNetwork",
+			"x-api-slug": "paretonetwork",
+			"description": "A peer-to-peer financial content market place using the Ethereum distributed ledger technology. Current, reputable &amp; actionable intel for digital currency traders and investors.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28734-www-pareto-network.jpg",
+			"humanURL": "https://www.pareto.network",
+			"baseURL": "https:////",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/paretonetwork/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Codefresh",
+			"x-api-slug": "codefresh",
+			"description": "Docker Automation and Collaboration for Agile Teams. Codefresh lets dev, QA and product work together on Docker compositions, including CI/CD, manual testing and feature previews.Codefresh enables you to instantly leverage all the benefits of Docker, w...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg",
+			"humanURL": "https://codefresh.io",
+			"baseURL": "https://g.codefresh.io//api",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/codefresh/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Strava",
+			"x-api-slug": "strava",
+			"description": "Strava is software as a service used to track cycling, running, and swimming activity via GPS.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg",
+			"humanURL": "",
+			"baseURL": "https://www.strava.com//api/v3",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/strava/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Clover",
+			"x-api-slug": "clover",
+			"description": "Clover, a First Data company, builds the largest open-architecture point of sale solution aimed at small &amp; medium sized business owners. Our products are changing the consumer/merchant experience for the better, opening avenues for seamless customer-merchant interactions. There are five versions of Clover, including the Clover Station, Clover Mobile, Clover Mini, Clover Go, and Clover Flex. With Clover, First Data is aiming to create the largest open architecture operating system for commerce-enabling solutions and applications for business owners.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png",
+			"humanURL": "https://www.clover.com",
+			"baseURL": "https:///merchants/https://api.clover.com",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/clover/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bookeo",
+			"x-api-slug": "bookeo",
+			"description": "Bookeo provides a leading online booking and scheduling system for tours, classes, and appointments, to help you save money and time. Click to learn more!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28769-www-bookeo-com.jpg",
+			"humanURL": "https://www.bookeo.com",
+			"baseURL": "https://api.bookeo.com//v2",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/bookeo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Authenticating.comu2122",
+			"x-api-slug": "authenticating-com",
+			"description": "Authenticating as a Service for peer-to-peer exchanges, two sided marketplaces, social networks and other transactional apps, sites and services worldwide.",
+			"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png",
+			"humanURL": "https://docs.authenticating.com",
+			"baseURL": "https:///",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/authenticating-com/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Akeneo",
+			"x-api-slug": "akeneo",
+			"description": "Our team has been working in the e-commerce industry for over 10 years. As we were helping brands to grow their online businesses, we realized that they were all struggling with complex or archaic systems to manage product information. We founded Akeneo in 2013 with the idea that products are the most important assets in a company and that many merchants lack a tool to help them manage and leverage this crucial asset. Merchants needed a tool that was designed for marketers and flexible enough to be integrated with any third-party application.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png",
+			"humanURL": "https://akeneo.com",
+			"baseURL": "https://example.com//api",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/akeneo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GitLab",
+			"x-api-slug": "gitlab",
+			"description": "GitLab is a web-based Git-repository manager with wiki, issue-tracking and CI/CD pipelines features, using an open-source license, developed by GitLab Inc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png",
+			"humanURL": "http://gitlab.com",
+			"baseURL": "https://localhost:3000//api",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/gitlab/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EVRYTHNG",
+			"x-api-slug": "evrythng",
+			"description": "EVRYTHNG is the market leading internet of things platform for consumer product brands. Now individual product items can tell their stories to your business and your consumers throughout their lifecycle.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28871-evrythng-com.jpg",
+			"humanURL": "https://evrythng.com",
+			"baseURL": "https://example.com//",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/evrythng/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LogMeIn",
+			"x-api-slug": "logmein",
+			"description": "LogMeIn, Inc. is a provider of software as a service and cloud-based remote connectivity services for collaboration, IT management and customer engagement, founded in 2003 and based in Boston, Massachusetts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg",
+			"humanURL": "http://www.LogMeInInc.com",
+			"baseURL": "https://api.getgo.com//G2W/rest/organizers",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/logmein/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CoinFabrik",
+			"x-api-slug": "coinfabrik",
+			"description": "Our smart contract development and full stack blockchain development services are supported by more than 20 years of experience building and reviewing secure applications. CoinFabrik is a full stack blockchain development company. Our expertise range from extending cryptocurrency nodes like Bitcoin and Ethereum to providing high level APIs and UIs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coinfabrik.png",
+			"humanURL": "https://www.coinfabrik.com",
+			"baseURL": "https://api.coinbase.com//v2",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/coinfabrik/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/dezrez/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Docsmore",
+			"x-api-slug": "docsmore",
+			"description": "FORM.FILL.SIGN - With Docsmore, the process of setting up a form and sending to users to complete or sign is simplified.  Use our platform to easily upload a document, specify form fields/signage, and send to users for completion.  Present forms to you...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28946-api-docsmore-com.jpg",
+			"humanURL": "http://api.docsmore.com",
+			"baseURL": "https://api.docsmore.com//",
+			"tags": "Authentication",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/docsmore/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Authentication",
+	"include": [
+		{
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/sendgrid/apis.yaml"
+		},
+		{
+			"name": "Twilio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/twilio/apis.yaml"
+		},
+		{
+			"name": "Reverb",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/reverb/apis.yaml"
+		},
+		{
+			"name": "AT&T Dev Program",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/att-dev-program/apis.yaml"
+		},
+		{
+			"name": "Rackspace",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/rackspace/apis.yaml"
+		},
+		{
+			"name": "Stack Exchange",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stack-exchange/apis.yaml"
+		},
+		{
+			"name": "Gigya",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/gigya/apis.yaml"
+		},
+		{
+			"name": "GoodData",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/gooddata/apis.yaml"
+		},
+		{
+			"name": "Spreaker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/spreaker/apis.yaml"
+		},
+		{
+			"name": "Instructure",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/instructure/apis.yaml"
+		},
+		{
+			"name": "Janrain",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/janrain/apis.yaml"
+		},
+		{
+			"name": "miiCard",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/miicard/apis.yaml"
+		},
+		{
+			"name": "Duo Security",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/duo-security/apis.yaml"
+		},
+		{
+			"name": "LoginRadius",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/loginradius/apis.yaml"
+		},
+		{
+			"name": "Authy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/authy/apis.yaml"
+		},
+		{
+			"name": "PassDefense",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/passdefense/apis.yaml"
+		},
+		{
+			"name": "LoginTC",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/logintc/apis.yaml"
+		},
+		{
+			"name": "APImetrics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/apimetrics/apis.yaml"
+		},
+		{
+			"name": "Okta",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/okta/apis.yaml"
+		},
+		{
+			"name": "University of Warwick",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/university-of-warwick/apis.yaml"
+		},
+		{
+			"name": "1LINX",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/1linx/apis.yaml"
+		},
+		{
+			"name": "Wordnik",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/wordnik/apis.yaml"
+		},
+		{
+			"name": "OAuth.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/oauth-io/apis.yaml"
+		},
+		{
+			"name": "Meetup",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/meetup/apis.yaml"
+		},
+		{
+			"name": "Gluu",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/gluu/apis.yaml"
+		},
+		{
+			"name": "Flickr",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/flickr/apis.yaml"
+		},
+		{
+			"name": "Auth0",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/auth0/apis.yaml"
+		},
+		{
+			"name": "Instagram",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/instagram/apis.yaml"
+		},
+		{
+			"name": "Slack",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/slack/apis.yaml"
+		},
+		{
+			"name": "OpenUMA",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/openuma/apis.yaml"
+		},
+		{
+			"name": "Shopify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/shopify/apis.yaml"
+		},
+		{
+			"name": "Centrify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/centrify/apis.yaml"
+		},
+		{
+			"name": "VMWare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/vmware/apis.yaml"
+		},
+		{
+			"name": "AWS EC2 Container Registry Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-ec2-container-registry-service/apis.yaml"
+		},
+		{
+			"name": "AWS Storage Gateway Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-storage-gateway-service/apis.yaml"
+		},
+		{
+			"name": "AWS RDS",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-rds/apis.yaml"
+		},
+		{
+			"name": "AWS ElastiCache",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-elasticache/apis.yaml"
+		},
+		{
+			"name": "AWS Redshift",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-redshift/apis.yaml"
+		},
+		{
+			"name": "AWS Config",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-config/apis.yaml"
+		},
+		{
+			"name": "AWS Identity and Access Management",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-identity-and-access-management/apis.yaml"
+		},
+		{
+			"name": "AWS Security Token Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-security-token-service/apis.yaml"
+		},
+		{
+			"name": "AWS Directory Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-directory-service/apis.yaml"
+		},
+		{
+			"name": "AWS Cognito",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-cognito/apis.yaml"
+		},
+		{
+			"name": "AWS EC2",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-ec2/apis.yaml"
+		},
+		{
+			"name": "AWS Route 53",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-route-53/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Key Management Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/google-cloud-key-management-service/apis.yaml"
+		},
+		{
+			"name": "Google Cloud User Accounts",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/google-cloud-user-accounts/apis.yaml"
+		},
+		{
+			"name": "Google Content API for Shopping",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/google-content-api-for-shopping/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Identity Access Management",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/google-cloud-identity-access-management/apis.yaml"
+		},
+		{
+			"name": "Google OAuth2",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/google-oauth2/apis.yaml"
+		},
+		{
+			"name": "Google Tag Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/google-tag-manager/apis.yaml"
+		},
+		{
+			"name": "Azure Key Vault",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/azure-key-vault/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/lykke/apis.yaml"
+		},
+		{
+			"name": "Stride",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/stride/apis.yaml"
+		},
+		{
+			"name": "ParallelDots",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/paralleldots/apis.yaml"
+		},
+		{
+			"name": "Mattermost",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/mattermost/apis.yaml"
+		},
+		{
+			"name": "Gravitee IO",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/gravitee-io/apis.yaml"
+		},
+		{
+			"name": "Authentiq Connect",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/authentiq-connect/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Rebilly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/rebilly/apis.yaml"
+		},
+		{
+			"name": "Ship Station",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/ship-station/apis.yaml"
+		},
+		{
+			"name": "Storecove",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/storecove/apis.yaml"
+		},
+		{
+			"name": "Backupify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/backupify/apis.yaml"
+		},
+		{
+			"name": "ParetoNetwork",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/paretonetwork/apis.yaml"
+		},
+		{
+			"name": "Codefresh",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/codefresh/apis.yaml"
+		},
+		{
+			"name": "Strava",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/strava/apis.yaml"
+		},
+		{
+			"name": "Clover",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/clover/apis.yaml"
+		},
+		{
+			"name": "Bookeo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/bookeo/apis.yaml"
+		},
+		{
+			"name": "Authenticating.comu2122",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/authenticating-com/apis.yaml"
+		},
+		{
+			"name": "Akeneo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/akeneo/apis.yaml"
+		},
+		{
+			"name": "GitLab",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/gitlab/apis.yaml"
+		},
+		{
+			"name": "EVRYTHNG",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/evrythng/apis.yaml"
+		},
+		{
+			"name": "LogMeIn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/logmein/apis.yaml"
+		},
+		{
+			"name": "CoinFabrik",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/coinfabrik/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/dezrez/apis.yaml"
+		},
+		{
+			"name": "Docsmore",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/docsmore/apis.yaml"
+		}
+	]
+}

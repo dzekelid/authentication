@@ -12,11 +12,71 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "164081"
 tags: Authentication
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/akeneo/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Official Akeneo PIM API - Authentification by refresh token
+  x-api-slug: oauthv1token-post
+  description: Authentification by refresh token.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/akeneo/oauthv1token-post-openapi.md
+- name: Official Akeneo PIM API - Authentification by refresh token
+  x-api-slug: oauthv1token-post
+  description: Authentification by refresh token.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/akeneo/oauthv1token-post-openapi.md
+- name: Official Akeneo PIM API - Authentification by refresh token
+  x-api-slug: oauthv1token-post
+  description: Authentification by refresh token.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/akeneo/oauthv1token-post-openapi.md
+- name: Official Akeneo PIM API - Authentification by refresh token
+  x-api-slug: oauthv1token-post
+  description: Authentification by refresh token.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/akeneo/oauthv1token-post-openapi.md
+- name: Official Akeneo PIM API - Authentification by refresh token
+  x-api-slug: oauthv1token-post
+  description: Authentification by refresh token.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/akeneo/oauthv1token-post-openapi.md
+- name: Official Akeneo PIM API - Authentification by refresh token
+  x-api-slug: oauthv1token-post
+  description: Authentification by refresh token.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/akeneo/oauthv1token-post-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.akeneo.com/feed/

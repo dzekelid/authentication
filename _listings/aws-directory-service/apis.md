@@ -15,11 +15,56 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Authentication
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-directory-service/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Directory Service API - Disable Radius
+  x-api-slug: actiondisableradius-get
+  description: Disables multi-factor authentication (MFA) with the Remote Authentication
+    Dial In User Service (RADIUS) server for an AD Connector directory.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png
+  humanURL: https://aws.amazon.com/directoryservice/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Authentication, Security, Stack Network, API
+    Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-directory-service/actiondisableradius-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-directory-service/actiondisableradius-get-openapi.md
+- name: AWS Directory Service API - Enable Radius
+  x-api-slug: actionenableradius-get
+  description: Enables multi-factor authentication (MFA) with the Remote Authentication
+    Dial In User Service (RADIUS) server for an AD Connector directory.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png
+  humanURL: https://aws.amazon.com/directoryservice/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Authentication, Security, Stack Network, API
+    Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-directory-service/actionenableradius-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-directory-service/actionenableradius-get-openapi.md
+- name: AWS Directory Service API - Update Radius
+  x-api-slug: actionupdateradius-get
+  description: Updates the Remote Authentication Dial In User Service (RADIUS) server
+    information for an AD Connector directory.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png
+  humanURL: https://aws.amazon.com/directoryservice/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Authentication, Security, Stack Network, API
+    Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-directory-service/actionupdateradius-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-directory-service/actionupdateradius-get-openapi.md
 - name: AWS Directory Service API - Disable Radius
   x-api-slug: actiondisableradius-get
   description: Disables multi-factor authentication (MFA) with the Remote Authentication

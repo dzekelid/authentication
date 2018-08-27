@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Strava
 x-complete: 1
@@ -28,4 +27,3 @@ paths:
       - Sports
       - Authenticated
       - Athlete
----

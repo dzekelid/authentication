@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Rebilly
 x-complete: 1
@@ -52,4 +51,21 @@ paths:
       - Change
       - Authentication
       - Options
----
+  /authentication-tokens:
+    get:
+      summary: Retrieve a list of auth tokens
+      description: Retrieve a list of auth tokens
+      operationId: authentication_tokens.get
+      x-api-path-slug: authenticationtokens-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Retrieve
+      - List
+      - Of
+      - Auth
+      - Tokens

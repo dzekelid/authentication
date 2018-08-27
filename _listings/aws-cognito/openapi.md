@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Cognito
 x-complete: 1
@@ -72,4 +71,63 @@ paths:
           description: OK
       tags:
       - Authnetication
----
+  /?Action=AdminRespondToAuthChallenge:
+    get:
+      summary: Admin Respond To Auth Challenge
+      description: Responds to an authentication challenge, as an administrator.
+      operationId: adminRespondToAuthChallenge
+      x-api-path-slug: actionadminrespondtoauthchallenge-get
+      parameters:
+      - in: query
+        name: ChallengeName
+        description: The name of the challenge
+        type: string
+      - in: query
+        name: ChallengeResponses
+        description: The challenge response
+        type: string
+      - in: query
+        name: ClientId
+        description: The client ID
+        type: string
+      - in: query
+        name: Session
+        description: The session
+        type: string
+      - in: query
+        name: UserPoolId
+        description: The ID of the Amazon Cognito user pool
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Authentication Challenge
+  /?Action=RespondToAuthChallenge:
+    get:
+      summary: Respond To Auth Challenge
+      description: Responds to the authentication challenge.
+      operationId: respondToAuthChallenge
+      x-api-path-slug: actionrespondtoauthchallenge-get
+      parameters:
+      - in: query
+        name: ChallengeName
+        description: The name of the challenge
+        type: string
+      - in: query
+        name: ChallengeResponses
+        description: The responses to the authentication challenge
+        type: string
+      - in: query
+        name: ClientId
+        description: The client ID
+        type: string
+      - in: query
+        name: Session
+        description: The session
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Authentication Challenges

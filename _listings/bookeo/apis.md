@@ -7,11 +7,63 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28769-www-
 x-kinRank: "7"
 x-alexaRank: "23042"
 tags: Authentication
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/bookeo/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Bookeo - Check a customer's password
+  x-api-slug: customersidauthenticate-get
+  description: |-
+    The customer's email address is the "username" used by Bookeo to authenticate customers.
+     So to authenticate a customer your application would typically use GET /customers to search for customers with a given email address, and then GET /customers/{id}/authenticate to authenticate.
+     Remember that there may be duplicate customer records with the same email address, ex. due to duplicate importing or manual record creation.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28769-www-bookeo-com.jpg
+  humanURL: https://www.bookeo.com
+  baseURL: https://api.bookeo.com//v2
+  tags: Bookings, Schedules, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/bookeo/customersidauthenticate-get-openapi.md
+- name: Bookeo - Check a customer's password
+  x-api-slug: customersidauthenticate-get
+  description: |-
+    The customer's email address is the "username" used by Bookeo to authenticate customers.
+     So to authenticate a customer your application would typically use GET /customers to search for customers with a given email address, and then GET /customers/{id}/authenticate to authenticate.
+     Remember that there may be duplicate customer records with the same email address, ex. due to duplicate importing or manual record creation.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28769-www-bookeo-com.jpg
+  humanURL: https://www.bookeo.com
+  baseURL: https://api.bookeo.com//v2
+  tags: Bookings, Schedules, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/bookeo/customersidauthenticate-get-openapi.md
+- name: Bookeo - Check a customer's password
+  x-api-slug: customersidauthenticate-get
+  description: |-
+    The customer's email address is the "username" used by Bookeo to authenticate customers.
+     So to authenticate a customer your application would typically use GET /customers to search for customers with a given email address, and then GET /customers/{id}/authenticate to authenticate.
+     Remember that there may be duplicate customer records with the same email address, ex. due to duplicate importing or manual record creation.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28769-www-bookeo-com.jpg
+  humanURL: https://www.bookeo.com
+  baseURL: https://api.bookeo.com//v2
+  tags: Bookings, Schedules, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/bookeo/customersidauthenticate-get-openapi.md
+- name: Bookeo - Check a customer's password
+  x-api-slug: customersidauthenticate-get
+  description: |-
+    The customer's email address is the "username" used by Bookeo to authenticate customers.
+     So to authenticate a customer your application would typically use GET /customers to search for customers with a given email address, and then GET /customers/{id}/authenticate to authenticate.
+     Remember that there may be duplicate customer records with the same email address, ex. due to duplicate importing or manual record creation.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28769-www-bookeo-com.jpg
+  humanURL: https://www.bookeo.com
+  baseURL: https://api.bookeo.com//v2
+  tags: Bookings, Schedules, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/bookeo/customersidauthenticate-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://bmc.software.api.gallery.streamdata.io

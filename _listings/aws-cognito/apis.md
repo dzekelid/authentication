@@ -15,8 +15,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Authentication
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-cognito/apis.md
 specificationVersion: "0.14"
 apis:
@@ -48,6 +48,76 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-cognito/actionadmininitiateauth-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-cognito/actionadmininitiateauth-get-openapi.md
+- name: AWS Cognito Merged API - Admin Initiate Auth
+  x-api-slug: actionadmininitiateauth-get
+  description: Initiates the authentication flow, as an administrator.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
+  humanURL: https://aws.amazon.com/cognito/
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-cognito/actionadmininitiateauth-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-cognito/actionadmininitiateauth-get-openapi.md
+- name: AWS Cognito Merged API - Admin Initiate Auth
+  x-api-slug: actionadmininitiateauth-get
+  description: Initiates the authentication flow, as an administrator.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
+  humanURL: https://aws.amazon.com/cognito/
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-cognito/actionadmininitiateauth-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-cognito/actionadmininitiateauth-get-openapi.md
+- name: AWS Cognito Merged API - Admin Respond To Auth Challenge
+  x-api-slug: actionadminrespondtoauthchallenge-get
+  description: Responds to an authentication challenge, as an administrator.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
+  humanURL: https://aws.amazon.com/cognito/
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-cognito/actionadminrespondtoauthchallenge-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-cognito/actionadminrespondtoauthchallenge-get-openapi.md
+- name: AWS Cognito Merged API - Initiate Auth
+  x-api-slug: actioninitiateauth-get
+  description: Initiates the authentication flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
+  humanURL: https://aws.amazon.com/cognito/
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-cognito/actioninitiateauth-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-cognito/actioninitiateauth-get-openapi.md
+- name: AWS Cognito Merged API - Respond To Auth Challenge
+  x-api-slug: actionrespondtoauthchallenge-get
+  description: Responds to the authentication challenge.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
+  humanURL: https://aws.amazon.com/cognito/
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-cognito/actionrespondtoauthchallenge-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/aws-cognito/actionrespondtoauthchallenge-get-openapi.md
 - name: AWS Cognito Merged API - Admin Initiate Auth
   x-api-slug: actionadmininitiateauth-get
   description: Initiates the authentication flow, as an administrator.

@@ -7,11 +7,35 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-stra
 x-kinRank: "7"
 x-alexaRank: "887"
 tags: Authentication
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/strava/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Strava API v3 - Get Authenticated Athlete
+  x-api-slug: athlete-get
+  description: Returns the currently authenticated athlete.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/strava/athlete-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/strava/athlete-get-openapi.md
+- name: Strava API v3 - Get Authenticated Athlete
+  x-api-slug: athlete-get
+  description: Returns the currently authenticated athlete.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/strava/athlete-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authentication/master/_listings/strava/athlete-get-openapi.md
 - name: Strava API v3 - Get Authenticated Athlete
   x-api-slug: athlete-get
   description: Returns the currently authenticated athlete.
